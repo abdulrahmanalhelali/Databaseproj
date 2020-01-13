@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Controller</servlet-name>
+  	<display-name>Controller</display-name>
+  	<description></description>
+  	<servlet-class>edu.aydin.Controller</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterController</servlet-name>
+  	<display-name>RegisterController</display-name>
+  	<description></description>
+  	<servlet-class>edu.aydin.RegisterController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminController</servlet-name>
+  	<display-name>AdminController</display-name>
+  	<description></description>
+  	<servlet-class>edu.aydin.AdminController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Order</servlet-name>
+  	<display-name>Order</display-name>
+  	<description></description>
+  	<servlet-class>edu.aydin.Order</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Addprod</servlet-name>
+  	<display-name>Addprod</display-name>
+  	<description></description>
+  	<servlet-class>edu.aydin.Addprod</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delprod</servlet-name>
+  	<display-name>Delprod</display-name>
+  	<description></description>
+  	<servlet-class>edu.aydin.Delprod</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Controller</servlet-name>
+  	<url-pattern>/handle_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterController</servlet-name>
+  	<url-pattern>/handle_register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminController</servlet-name>
+  	<url-pattern>/admin_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Order</servlet-name>
+  	<url-pattern>/Order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Addprod</servlet-name>
+  	<url-pattern>/Addprod</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delprod</servlet-name>
+  	<url-pattern>/Delprod</url-pattern>
+  </servlet-mapping>
+</web-app>
